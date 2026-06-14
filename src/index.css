@@ -1,0 +1,906 @@
+@import "tailwindcss";
+
+.banner-img {
+    background-color: black;
+    opacity: .5;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*All Mobiles resposinve start*/
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    .mobile-res {
+        margin-left: 15px;
+    }
+
+    .year-res {
+        margin-left: 100px;
+    }
+
+    .about-setting {
+        margin-top: -250px;
+    }
+
+    .whole-setting h2 {
+        margin-top: 120px;
+    }
+
+    .whole-setting .reating-card {
+        margin-top: 290px;
+        margin-left: -220px;
+    }
+
+    .whole-setting .more-button {
+        margin-left: 30px;
+    }
+
+    /*Sevice card start*/
+    .service-card {
+        margin-top: -50px;
+    }
+
+    .story-card {
+        margin-left: -240px;
+    }
+
+    .story-card .Imagethree {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .demo-test .image-size {
+        width: 160px;
+        height: 160px;
+        margin-left: 13px;
+    }
+
+    .demo-test .explain-text {
+        margin-left: 10px;
+        font-size: medium;
+    }
+
+    .customer-Rating .customr-info {
+        margin-left: 10px;
+    }
+
+    .customer-Rating .customr-infotwo {
+        margin-left: 10px;
+    }
+
+    .customer-Rating .customr-infothree {
+        margin-left: 5px;
+    }
+
+    /*What We Do start*/
+
+    .what-wedo {
+        margin-top: 50px;
+    }
+
+    .widthing-decrease {
+        width: 330px;
+    }
+
+    .factory-industry {
+        width: 330px;
+    }
+
+    .heigh-size {
+        width: 330px;
+    }
+
+    .what-wedo .factory-industry {
+        font-size: x-large;
+    }
+
+    .what-wedo .grid-containermap {
+        width: 300px;
+    }
+
+
+    .what-wedo .quote-free {
+        font-size: 12px;
+        width: 330px;
+    }
+
+    .rightside-image {
+        width: 350px;
+    }
+
+    .rightside-image .rightside-image {
+        width: 350px;
+        margin-left: -2px;
+        height: auto;
+    }
+
+    .rightside-image .log-img {
+        margin-top: -175px;
+        margin-left: 165px;
+    }
+
+    /*What We Do end*/
+    .our-process {
+        margin-top: -50px;
+    }
+
+    .our-process .head-line {
+        font-weight: 100px;
+
+    }
+
+    .our-process .ourprocess-para p {
+        margin-top: 30px;
+    }
+
+    /* Our Process start*/
+    .Understanding .Understanding-with {
+        width: 330px;
+
+        margin-left: 20px;
+    }
+
+    /* Pricing Plan */
+    .pricing-plan {
+        margin-top: -90px;
+    }
+
+    .pricing-plan .content-para {
+        margin-top: -30px;
+    }
+
+    .bottom-feature {
+        margin-top: 20px;
+    }
+
+    .bottom-feature .bottom-get {
+        margin-right: 26px;
+    }
+
+    .bottom-feature .bottom-two {
+        margin-top: -20px;
+    }
+
+    .bottom-feature .bottom-three {
+        margin-top: -20px;
+    }
+
+    /*Our Client Say start*/
+
+    .clint-say {
+        margin-top: -100px;
+    }
+
+    .divider-content {
+        margin-top: 20px;
+    }
+
+    .divider-content .margintop-image {
+        margin-top: -20px;
+    }
+
+    .divider-content .margintop-imageTwo {
+        margin-top: 5px;
+    }
+
+    .divider-content .margintop-imagelast {
+        margin-left: 3px;
+    }
+
+    /*header-blog start*/
+    .header-blog {
+        margin-top: -60px;
+    }
+
+    .header-blog .blog-para {
+        margin-top: -20px;
+        margin-left: 5px;
+    }
+
+    /*About Page */
+    .about-top {
+        margin-top: 120px;
+    }
+
+    .about-top .small-image {
+        margin-left: -80px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-top .years-about {
+        margin-left: -20px;
+        margin-top: -20px;
+
+    }
+
+    .about-top .years-about p {
+        font-size: 20px;
+
+    }
+
+    .about-top .year-ofexpe {
+        margin-left: 360px;
+    }
+
+    .about-top .About-us {
+        margin-top: 180px;
+        margin-left: 80px;
+
+    }
+
+    .about-top .about-image {
+        width: 210px;
+        height: 250px;
+        margin-top: -30px;
+        margin-left: -20px;
+    }
+
+    .About-us .build-title {
+        width: 350px;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .card-aboutCard {
+        margin-top: 290px;
+        margin-left: -230px;
+    }
+
+    /*our-approch start*/
+    .our-approch {
+        margin-top: 830px;
+    }
+
+    .our-approch .our-approching {
+        margin-top: 30px;
+    }
+
+    .provide-content .provide-contentPara {
+        margin-top: -20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .our-mission {
+        margin-top: 10px;
+    }
+
+    /*our-history start*/
+    .our-history {
+        margin-top: -30px;
+    }
+
+    .our-history .history-head {
+        margin-left: -50px;
+    }
+
+    .our-para .our-content {
+        margin-top: -50px;
+    }
+
+    .palning-cal {
+        margin-left: -50px;
+    }
+
+    .head-title .text-back {
+        margin-left: -40px;
+    }
+
+    .head-title .company-para {
+        margin-left: -40px;
+    }
+
+    .head-title .quality-control {
+        margin-left: -40px;
+    }
+
+    .plaining-image .plaining-imageOne {
+        margin-left: 60px;
+        width: 300px;
+        height: 300px;
+    }
+
+    /* Your About Page existing Innovation Section code here */
+    .whatwe-do {
+        margin-top: -10px;
+    }
+
+    .whatwe-dosize {
+        width: 330px;
+    }
+
+    .whatwe-do .whatwe-box {
+        width: 300px;
+    }
+
+    .whatwe-do .factory-title {
+        margin-left: -20px;
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .parain-below {
+        width: 330px;
+    }
+
+    .griding-sizeing {
+        width: 340px;
+    }
+
+    .whatwe-do .parain-below {
+        font-size: 12px;
+    }
+
+    .working-img {
+        width: 340px;
+    }
+
+    .working-img .woringOne-img {
+        width: 372px;
+        height: 400px;
+        margin-left: -14px;
+    }
+
+    .working-Logo img {
+        margin-top: -200px;
+        margin-left: 170px;
+    }
+
+    /*Our Key Feature Sart*/
+    .invocation-para {
+        margin-top: -20px;
+    }
+
+    .advanced-techno {
+        margin-top: -20px;
+    }
+
+    /*Our Process start*/
+    .process-our-line {
+        margin-top: -30px;
+    }
+
+    .head-process-title .title-cont {
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+
+    .process-paragraph .proessparaone {
+        margin-top: 25px;
+    }
+
+    .design-planing {
+        width: 320px;
+        margin-left: 20px;
+    }
+
+    /*our team mets start*/
+    .our-teammets {
+        margin-top: -50px;
+    }
+
+    .all-members {
+        width: 170px;
+    }
+
+    .mession-checking {
+        margin-top: -60px;
+    }
+
+    /*our clint say start*/
+    .headtitle-our {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .details-improve {
+        margin-top: 20px;
+    }
+
+    .logo-ipsum {
+        margin-top: -40px;
+    }
+
+    .logo-ipsum .margin-ipsum {
+        margin-top: -15px;
+    }
+
+    .Fqas-paran {
+        margin-top: -80px;
+    }
+
+    .Fqas-paran .faqs-title {
+        font-size: 15px;
+    }
+
+    .image-sizing {
+        width: 25px;
+    }
+
+    .button-allfqas {
+        width: 130px;
+    }
+
+    .bgyellow-button {
+        width: 160px;
+    }
+
+    .cunstom-solution {
+        margin-left: -240px;
+    }
+
+    /*.custom-manifacturing{
+    
+   }*/
+
+    .coaching-our {
+        margin-left: 19px;
+    }
+
+    .why-choose {
+        font-size: 30px;
+    }
+
+    .strategy-planing {
+        margin-left: -10px;
+        margin-top: -20px;
+    }
+
+    .asked-qustion {
+        margin-left: -50px;
+    }
+
+    .askedquestion-width {
+        width: 350px;
+    }
+
+    /*Pricing Pages start here*/
+    .freetrail-card .freetrail-para {
+        margin-top: -25px;
+    }
+
+    .freetrail-paraone {
+        margin-left: -20.6px;
+    }
+
+    .pricing-planingSize {
+        width: 340px;
+    }
+
+    .whatwe-doIndustry {
+        font-size: 25px;
+    }
+
+    .automation-soludtion {
+        width: 300px;
+    }
+
+    .getfree-para {
+        font-size: 12px;
+        width: 330px;
+    }
+
+    .image-cutter {
+        width: 340px;
+    }
+
+    .image-cutter .center-logo {
+        margin-top: -350px;
+        margin-left: 170px;
+    }
+
+    .Logoipsum-content {
+        margin-top: -80px;
+    }
+
+    .image-cutter .working-towards {
+        width: 375px;
+        margin-left: -20px;
+    }
+
+    .Logoipsum-content .logo-ipusm {
+        margin-top: -20px;
+    }
+}
+
+/*All Mobiles resposinve end*/
+
+
+/* Mobile Landscape */
+@media screen and (orientation: landscape) and (max-height: 500px) {
+    .about-setting {
+        margin-top: 0;
+    }
+
+    .whole-setting h2 {
+        margin-top: 50px;
+    }
+
+    .title-navbar h1 {
+        margin-top: 90px;
+        line-height: 05px;
+    }
+
+    .whole-setting {
+        margin-top: 30px;
+    }
+
+    .title-navbar h1,
+    h3 {
+        font-size: 20px;
+    }
+
+    .title-navbar .titlepara-content {
+        font-size: 10px;
+    }
+
+    .title-navbar button {
+        width: 110px;
+        height: 30px;
+    }
+
+    .title-navbar .navbar-Button {
+        font-size: 10px;
+        width: 150px;
+        height: 40px;
+        margin-top: -90px;
+    }
+
+    .border-top {
+        margin-bottom: -18px;
+    }
+
+    .tick-icon {
+        margin-top: -10px;
+    }
+
+    .about-sidemoving {
+        margin-left: 0px;
+        padding: 50px 0px;
+    }
+
+    .about-setting {
+        margin-top: -280px;
+    }
+
+    .Imagethree {
+        margin-left: 400px;
+    }
+
+    .margin-leftImage {
+        margin-left: 140px;
+    }
+
+    .Understanding .Understanding-with {
+        margin-left: 130px;
+    }
+
+    .about-top {
+        margin-left: 120px;
+    }
+
+    .cardiclaender-info {
+        margin-left: 180px;
+    }
+
+    .system-controll {
+        margin-left: 160px;
+    }
+
+    .plaining-image {
+        margin-left: 130px;
+    }
+
+    .design-planing {
+        margin-left: 170px;
+    }
+
+    .faqlist-side {
+        margin-left: 160px;
+    }
+
+    .settingright-icon {
+        margin-left: 170px;
+    }
+
+    .freetrail-card .freetrail-paraone {
+        margin-bottom: 25px;
+    }
+}
+
+/*All Tabs resposinve start*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .mobile-res {
+        margin-left: 15px;
+    }
+
+    .heigh-size {
+        width: 300px;
+    }
+
+    .factory-industry {
+        width: 550px;
+    }
+
+    .grid-containermap {
+        width: 650px;
+    }
+
+    .rightside-image {
+        width: 763px;
+        margin-left: -10px;
+    }
+
+    .story-card {
+        margin-left: -150px;
+    }
+
+    .demo-test {
+        margin-left: 130px;
+    }
+
+    .about-sidemoving {
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+
+    .year-res {
+        margin-left: 80px;
+    }
+
+    .about-setting {
+        margin-top: -270px;
+        margin-left: 30px;
+    }
+
+    .heading-belowhtwo {
+        margin-top: 180px;
+    }
+
+    .about-top {
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .About-us {
+        margin-top: 250px;
+        margin-left: 80px;
+    }
+
+    .aboutus-icontop {
+        margin-top: -530px;
+        margin-left: 10px;
+    }
+
+    .cardiclaender-info {
+        margin-left: 170px;
+    }
+
+    .quote-free {
+        margin-left: 150px;
+    }
+
+    .log-img {
+        margin-top: -350px;
+        margin-left: 380px;
+    }
+
+    .our-content {
+        margin-left: 65px;
+    }
+
+    .quality-control {
+        margin-left: 110px;
+    }
+
+    .plaining-image {
+        margin-left: 120px;
+    }
+
+    .whatwe-dosize {
+        width: 430px;
+    }
+
+    .factory-title {
+        width: 560px;
+    }
+
+    .whatwe-box {
+        width: 660px;
+    }
+
+    .working-img {
+        width: 770px;
+        margin-left: -25px;
+
+    }
+
+    .working-Logo {
+        margin-top: -350px;
+        margin-left: 390px;
+    }
+
+    .parain-below {
+        margin-left: 150px;
+    }
+
+    .all-members {
+        width: 180px;
+    }
+
+    .bgyellow-button {
+        width: 150px;
+    }
+
+    .strategy-planing {
+        margin-left: -5px;
+    }
+
+    .asked-qustion {
+        margin-left: -20px;
+    }
+
+    .askedquestion-width {
+        width: 680px;
+    }
+
+    .ourpricingtitle-header {
+        width: 400px;
+    }
+
+    .whatwe-doIndustry {
+        width: 500px;
+    }
+
+    .automation-soludtion {
+        width: 660px;
+    }
+
+    .getfree-para {
+        margin-left: 150px;
+    }
+
+    .image-cutter {
+        width: 770px;
+        margin-left: -25px;
+    }
+
+    .center-logo {
+        margin-top: -350px;
+        margin-left: 380px;
+    }
+}
+
+/*All Tabs resposinve end*/
+
+/* Tablet landscape styles */
+@media screen and (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
+    .whole-setting {
+        margin-top: 600px;
+        margin-left: -400px;
+    }
+
+    .image-movetotop {
+        margin-top: -600px;
+        margin-left: 180px;
+    }
+
+    .bigimage-movetotop {
+        margin-top: -400px;
+        margin-left: 80px;
+    }
+
+    .year-res {
+        margin-top: -400px;
+        margin-left: 100px;
+    }
+
+    .parapage-indutrial {
+        width: 660px;
+    }
+
+    .rightside-image {
+        width: 511px;
+        height: 830px;
+    }
+
+    .tramsforming-industries {
+        width: 660px;
+    }
+
+    .storycard-our {
+        margin-left: 50px;
+    }
+
+    .transform-industri {
+        width: 300px;
+        margin-left: 50px;
+        font-size: 30px;
+    }
+
+    .Imagethree {
+        margin-left: 35px;
+    }
+
+    .explain-text {
+        width: 600px;
+    }
+
+    .customer-Rating {
+        width: 650px;
+    }
+
+    .About-us {
+        margin-top: 500px;
+        margin-left: -380px;
+    }
+
+    .aboutus-icontop {
+        margin-top: -370px;
+        margin-left: -50px;
+    }
+
+    .imageabout-yearsmall {
+        margin-top: -400px;
+    }
+
+    .imageabout-yearsbig {
+        margin-top: -200px;
+    }
+
+    .years-about {
+        margin-top: -200px;
+    }
+
+    .build-title {
+        margin-top: 190px;
+    }
+
+    .about-top {
+        margin-top: -130px;
+    }
+
+    .building-paracontenting {
+        width: 600px;
+    }
+
+    .working-img {
+        width: 510px;
+
+    }
+
+    .woringOne-img {
+        width: 510px;
+        height: 830px;
+    }
+
+    .strategy-planing {
+        margin-left: 30px;
+    }
+
+    .askedquestion-width {
+        width: 660px;
+        margin-left: -140px;
+    }
+
+    .solution-titleasked {
+        margin-left: -140px;
+    }
+
+    .image-cutter {
+        width: 510px;
+    }
+
+    .working-towards {
+        width: 510px;
+        height: 830px;
+    }
+
+    .footer-movieleft {
+        margin-left: -23px;
+    }
+}
