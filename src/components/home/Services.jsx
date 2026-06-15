@@ -234,11 +234,11 @@ const Services = () => {
         <div className="tramsforming-industries grid lg:grid-cols-2 gap-16 items-start mt-10">
           {/* LEFT COLUMN */}
           <div className="story-card">
-            <span className="storycard-our flex items-center ml-65  gap-2 pl-4 text-[11px] uppercase tracking-[3px] text-gray-700 font-medium cursor-pointer">
+            <span className="storycard-our flex items-center ml-40  gap-2 pl-4 text-[11px] uppercase tracking-[3px] text-gray-700 font-medium cursor-pointer">
               <img src={SettingIcon} alt="" />
               Our Story
             </span>
-            <h2 className="transform-industri mt-4 text-[42px] leading-[50px] ml-70  text-[#1f1f1f]">
+            <h2 className="transform-industri mt-4 text-[42px] leading-[50px] ml-40  text-[#1f1f1f]">
               <span>Transforming industries</span>
               <br />
               <span className="font-semibold">with innovative efficient</span>
@@ -249,7 +249,7 @@ const Services = () => {
             <img
               src={Imagethree}
               alt=""
-              className="Imagethree mt-12 w-[600px] ml-70 rounded-[22px]"
+              className="Imagethree mt-12 w-[600px] ml-30 rounded-[22px]"
             />
           </div>
           {/* RIGHT COLUMN */}
